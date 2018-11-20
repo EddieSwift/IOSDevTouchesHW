@@ -10,6 +10,15 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *checkersBoard;
+
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *blackCells;
+
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *whiteCheckers;
+
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *redCheckers;
+
+
 
 @end
 
